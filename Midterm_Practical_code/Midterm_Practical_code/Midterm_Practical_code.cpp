@@ -44,35 +44,22 @@ int ReadAnswer()
 		std::cin >> input;
 		
 		num = input;
-		if (num == 65)
+		if (num == 65|| num == 97)
 		{
 			return 1;
 		}
-		else if (num == 97)
-		{
-			return 1;
-		}
-		if (num == 66)
+	
+		if (num == 66|| num == 98)
 		{
 			return 2;
 		}
-		else if (num == 98)
-		{
-			return 2;
-		}
-		if (num == 67)
+		
+		if (num == 67|| num == 99)
 		{
 			return 3;
 		}
-		else if (num == 99)
-		{
-			return 3;
-		}
-		if (num == 68)
-		{
-			return 4;
-		}
-		else if (num == 100)
+		
+		if (num == 68|| num == 100)
 		{
 			return 4;
 		}
